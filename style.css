@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: blueviolet;
+}div {
+  background-color: #fff;
+  height: 320px;
+  width: 320px;
+  border-radius: 10px;
+  text-align: center;
+  overflow: hidden;
+}.p1 {
+  width: 100%;
+  background-color: rgb(255, 82, 51);
+  color: #fff;
+  padding: 30px 0;
+  font-size: 30px;
+  font-weight: 900;
+}.p2,.p4 {
+  margin: 20px 0;
+  color: darkgray;
+  font-size: 20px;
+}.p3 {
+  margin: 30px 0;
+  font-size: 60px;
+  font-weight: 700;
+}
